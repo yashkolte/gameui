@@ -1,32 +1,63 @@
 :root {
-    --primary-color: #120d20;
+  --primary-color: #120d20;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 #main {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 #main .nav {
-    position: sticky;
-    left: 0;
-    top: 0;
-    width: 5%;
-    height: 100vh;
-    background-color: #fff;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main .nav .navbar {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main .nav .nav-top,
+#main .nav .nav-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#main .nav .nav-top a,
+#main .nav .nav-bottom a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+#main .nav .nav-bottom a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
 }
 
 #main #hero {
-    width: 95%;
-    /* height: 150vh; */
+  width: 95%;
+  /* height: 150vh; */
 }
