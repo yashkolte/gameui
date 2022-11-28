@@ -153,3 +153,64 @@ body {
     background-color: #fff;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); */
 }
+
+    .hero-main .hero-cards .hero-img {
+        scale: 1.5;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        height: 80%;
+
+      
+    }
+
+    .hero-cards .hero-circle{
+        height: 170px;
+        width: 170px;
+        border: 5px solid #abf1fa;
+        border-top: transparent;
+        border-right: transparent;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .hero-cards .hero-circle .circle-stars{
+        color: gold;
+    }
+    
+    .hero-circle .circle-stars #one{
+        font-size: 1.8rem;
+        position: absolute;
+        left: 35%;
+        top: -9%;
+    }
+    
+    .hero-circle .circle-stars #two{
+        font-size: 1.6rem;
+        position: absolute;
+        left: 61%;
+        top: -3%;
+    }
+    
+    .hero-circle .circle-stars #three{
+        font-size: 1.4rem;
+        position: absolute;
+        left: 80.5%;
+        top: 10%;
+    }
+    
+    .hero-circle .circle-stars #four{
+        font-size: 1.2rem;
+        position: absolute;
+        left: 91%;
+        top: 27%;
+    }
+    
+    .hero-circle .circle-stars #five{
+        font-size: 1rem;
+        position: absolute;
+        left: 95%;
+        top: 45%;
+    }
