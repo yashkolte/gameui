@@ -264,7 +264,7 @@ body {
     }
 
     .card-text .card-btn{
-        width: 80%;
+        width: 65%;
         display: flex;
         text-align: center;
         justify-content: space-between;
