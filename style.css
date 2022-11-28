@@ -241,32 +241,33 @@ body {
     }
 
     .hero-cards .card-text{
-        height: 50%;
+        height: 40%;
         width: 60%;
         position: absolute;
-        bottom: 0;
-        left: 0;
+        bottom: 1rem;
+        left: 2rem;
         color: #fff;
         font-family: "Gilroy";
-        padding: 0.5rem 0;
+        /* padding: 0.5rem 0; */
     }
 
     .hero-cards .card-text h1{
         font-size: 3rem;
         font-weight: 700;
-        padding-left: 1.5rem;
+        /* padding-left: 1.5rem; */
     }
 
     .hero-cards .card-text p{
         font-weight: 400;
-        padding-left: 1.5rem;
+        width: 80%;
+        /* padding-left: 1.5rem; */
     }
 
     .card-text .card-btn{
-        width: 90%;
+        width: 65%;
         display: flex;
         text-align: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 10px;
     }
 
