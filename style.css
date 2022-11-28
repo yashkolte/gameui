@@ -1,216 +1,214 @@
 :root {
-    --primary-color: #120d20;
+  --primary-color: #120d20;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 #main {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 /*--------------------------------- Navbar ----------------------- */
 
 #main .nav {
-    position: sticky;
-    left: 0;
-    top: 0;
-    width: 5%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #main .nav .navbar {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #main .nav .nav-top,
 #main .nav .nav-bottom {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 #main .nav .nav-top a,
 #main .nav .nav-bottom a {
-    text-decoration: none;
-    font-size: 1.6rem;
-    color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 #main .nav .nav-bottom a img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 /*--------------------------------- Main Hero ----------------------- */
 
 #main #hero {
-    width: 95%;
-    /* height: 150vh; */
+  width: 95%;
+  /* height: 150vh; */
 }
 
 #main #hero .hero-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 #main #hero .hero-nav-left {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 2rem;
 }
 
 #main #hero .hero-nav-left a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 #main #hero .hero-nav-center {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 #main #hero .hero-nav-center img {
-    width: 90px;
-    height: 60px;
-    border-radius: 5px;
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
 }
 
 #main #hero .hero-nav-right {
-    width: 26%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 2rem;
+  width: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 2rem;
 }
 
-#main #hero .hero-nav-right .group{
-    font-size: 1.3rem;
-    color: #fff;
-    /* margin-right: 1rem; */
+#main #hero .hero-nav-right .group {
+  font-size: 1.3rem;
+  color: #fff;
+  /* margin-right: 1rem; */
 }
+
 #main #hero .hero-nav-right .search {
-    position: relative;
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.101);
-    color: rgba(255, 255, 255, 0.451);
-    display: flex;
-    gap: 1rem;
-    padding: .7rem .8rem;
-    border-radius: 5px;
+  position: relative;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.101);
+  color: rgba(255, 255, 255, 0.451);
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 5px;
 }
 
 .hero-main {
-    width: 100%;
-    height: 70vh;
-    /* background-color: #fff; */
-    display: flex;
-    align-items: center;
+  width: 100%;
+  height: 70vh;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
 }
 
-.hero-main .hero-cards{
-    position: relative;
-    width: 60%;
-    height: 60vh;
-    /* background-color: rgb(149, 53, 53); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 5rem;
-    border-radius: 20px;
-    /* background-image: linear-gradient(to bottom right, red, yellow); */
-    background-image: linear-gradient(to bottom right, #42D4C9, #121440);
+.hero-main .hero-cards {
+  position: relative;
+  width: 60%;
+  height: 60vh;
+  /* background-color: rgb(149, 53, 53); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5rem;
+  border-radius: 20px;
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  background-image: linear-gradient(to bottom right, #42d4c9, #121440);
 }
 
 .hero-main .hero-cards .shape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
     height: 100%;
     background-color: #fff;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); */
 }
 
-    .hero-main .hero-cards .hero-img {
-        scale: 1.5;
-        position: absolute;
-        left: 50px;
-        top: 50px;
-        height: 80%;
+.hero-main .hero-cards .hero-img {
+  scale: 1.5;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  height: 80%;
+}
 
-      
-    }
+.hero-cards .hero-circle {
+  height: 170px;
+  width: 170px;
+  border: 5px solid #abf1fa;
+  border-top: transparent;
+  border-right: transparent;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-    .hero-cards .hero-circle{
-        height: 170px;
-        width: 170px;
-        border: 5px solid #abf1fa;
-        border-top: transparent;
-        border-right: transparent;
-        border-radius: 100px;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    
-    .hero-cards .hero-circle .circle-stars{
-        color: gold;
-    }
-    
-    .hero-circle .circle-stars #one{
-        font-size: 1.8rem;
-        position: absolute;
-        left: 35%;
-        top: -9%;
-    }
-    
-    .hero-circle .circle-stars #two{
-        font-size: 1.6rem;
-        position: absolute;
-        left: 61%;
-        top: -3%;
-    }
-    
-    .hero-circle .circle-stars #three{
-        font-size: 1.4rem;
-        position: absolute;
-        left: 80.5%;
-        top: 10%;
-    }
-    
-    .hero-circle .circle-stars #four{
-        font-size: 1.2rem;
-        position: absolute;
-        left: 91%;
-        top: 27%;
-    }
-    
-    .hero-circle .circle-stars #five{
-        font-size: 1rem;
-        position: absolute;
-        left: 95%;
-        top: 45%;
-    }
+.hero-cards .hero-circle .circle-stars {
+  color: gold;
+}
+
+.hero-circle .circle-stars #one {
+  font-size: 1.8rem;
+  position: absolute;
+  left: 35%;
+  top: -9%;
+}
+
+.hero-circle .circle-stars #two {
+  font-size: 1.6rem;
+  position: absolute;
+  left: 61%;
+  top: -3%;
+}
+
+.hero-circle .circle-stars #three {
+  font-size: 1.4rem;
+  position: absolute;
+  left: 80.5%;
+  top: 10%;
+}
+
+.hero-circle .circle-stars #four {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 91%;
+  top: 27%;
+}
+
+.hero-circle .circle-stars #five {
+  font-size: 1rem;
+  position: absolute;
+  left: 95%;
+  top: 45%;
+}
