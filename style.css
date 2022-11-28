@@ -207,15 +207,21 @@ body {
         left: 91%;
         top: 27%;
     }
-    
-    .hero-circle .circle-stars #five{
-        font-size: 1rem;
+
+    .hero-circle .circle-text h1{
+        color: #fff;
+        font-family: "Gilroy";
+        font-size: 4.5rem;
+        font-weight: 600;
         position: absolute;
-        left: 95%;
-        top: 45%;
+        left: 25%;
+        top: 25%;
+    }
+    
+    .hero-cards i{
+        color: rgb(240, 240, 47);
     }
 
-    
     .hero-cards .play-btn{
         position: absolute;
         top: 5%;
