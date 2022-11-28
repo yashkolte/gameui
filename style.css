@@ -1,132 +1,132 @@
 :root {
-    --primary-color: #120d20;
+  --primary-color: #120d20;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 #main {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 /*--------------------------------- Navbar ----------------------- */
 
 #main .nav {
-    position: sticky;
-    left: 0;
-    top: 0;
-    width: 5%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #main .nav .navbar {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #main .nav .nav-top,
 #main .nav .nav-bottom {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 #main .nav .nav-top a,
 #main .nav .nav-bottom a {
-    text-decoration: none;
-    font-size: 1.6rem;
-    color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 #main .nav .nav-bottom a img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 /*--------------------------------- Main Hero ----------------------- */
 
 #main #hero {
-    width: 95%;
-    /* height: 150vh; */
+  width: 95%;
+  /* height: 150vh; */
 }
 
 #main #hero .hero-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 #main #hero .hero-nav-left {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 2rem;
 }
 
 #main #hero .hero-nav-left a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 #main #hero .hero-nav-center {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 #main #hero .hero-nav-center img {
-    width: 90px;
-    height: 60px;
-    border-radius: 5px;
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
 }
 
 #main #hero .hero-nav-right {
-    width: 26%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 2rem;
+  width: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 2rem;
 }
 
-#main #hero .hero-nav-right .group{
-    font-size: 1.3rem;
-    color: #fff;
-    /* margin-right: 1rem; */
+#main #hero .hero-nav-right .group {
+  font-size: 1.3rem;
+  color: #fff;
+  /* margin-right: 1rem; */
 }
+
 #main #hero .hero-nav-right .search {
-    position: relative;
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.101);
-    color: rgba(255, 255, 255, 0.451);
-    display: flex;
-    gap: 1rem;
-    padding: .7rem .8rem;
-    border-radius: 5px;
+  position: relative;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.101);
+  color: rgba(255, 255, 255, 0.451);
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 5px;
 }
 
 .hero-main {
-    width: 100%;
-    height: 70vh;
-    /* background-color: #fff; */
-    display: flex;
-    align-items: center;
+  width: 100%;
+  height: 70vh;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
 }
 
 .hero-main .hero-cards{
@@ -141,14 +141,14 @@ body {
     margin-left: 5rem;
     border-radius: 20px;
     /* background-image: linear-gradient(to bottom right, red, yellow); */
-    background-image: linear-gradient(to bottom right, #42D4C9, #07050a);
+    background-image: linear-gradient(to bottom right, #42D4C9, #121440);
 }
 
 .hero-main .hero-cards .shape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
     height: 100%;
     background-color: #fff;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); */
@@ -159,7 +159,9 @@ body {
         position: absolute;
         left: 50px;
         top: 50px;
-        height: 80%;  
+        height: 80%;
+
+      
     }
 
     .hero-cards .hero-circle{
@@ -173,19 +175,9 @@ body {
         top: 0;
         left: 0;
     }
-
-    .hero-circle .circle-text h1{
-        color: #fff;
-        font-family: "Gilroy";
-        font-size: 4.5rem;
-        font-weight: 600;
-        position: absolute;
-        left: 25%;
-        top: 25%;
-    }
     
-    .hero-cards i{
-        color: rgb(240, 240, 47);
+    .hero-cards .hero-circle .circle-stars{
+        color: gold;
     }
     
     .hero-circle .circle-stars #one{
@@ -215,86 +207,10 @@ body {
         left: 91%;
         top: 27%;
     }
-
-    .hero-cards .play-btn{
-        position: absolute;
-        top: 5%;
-        right: 5%;
-        border: 1px transparent;
-        background-color: rgba(255, 255, 255, 0.177);
-        padding: 5px 1rem;
-        border-radius: 25px;
-    }
-
-    .hero-cards .play-btn h2{
-        color: #fff;
-        font-size: 0.9rem;
-        font-weight: 500;
-        font-style: italic;
-        font-family: "Gilroy";
-    }
-
-    .hero-cards .card-text{
-        height: 50%;
-        width: 60%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        color: #fff;
-        font-family: "Gilroy";
-        padding: 0.5rem 0;
-    }
-
-    .hero-cards .card-text h1{
-        font-size: 3rem;
-        font-weight: 700;
-        padding-left: 1.5rem;
-    }
-
-    .hero-cards .card-text p{
-        font-weight: 400;
-        padding-left: 1.5rem;
-    }
-
-    .card-text .card-btn{
-        width: 90%;
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        margin-top: 10px;
-    }
-
-    .card-btn .review h3{
+    
+    .hero-circle .circle-stars #five{
         font-size: 1rem;
-        font-weight: 500;
-    }
-
-    .card-btn h2{
-        border: 1px solid transparent;
-        border-radius: 5px;
-        padding: 8px 35px;
-        font-size: 1.1rem;
-        font-weight: 500;
-        background-image: linear-gradient(to right, red, purple);
-        box-shadow: 0 0 2rem .3rem  red;
-    }
-
-    .card-btn h4{
-        border: 1px solid transparent;
-        border-radius: 5px;
-        padding: 8px 15px;
-        margin-right: 20px;
-        background-image: linear-gradient(to right, red, purple);
-        box-shadow: 0 0 2rem .3rem  red;
-    }
-
-    .hero-cards .king-logo{
-        height: 65%;
-        width: 45%;
-        background-image: url(./assets/img/hero-logo.png);
-        background-size: cover;
-        background-position: center;
         position: absolute;
-        right: 5%;
-        top: 13%;
+        left: 95%;
+        top: 45%;
     }
