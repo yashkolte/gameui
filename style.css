@@ -10,6 +10,7 @@
 
 body {
   background-color: var(--primary-color);
+  overflow: hidden;
 }
 
 #main {
@@ -122,16 +123,18 @@ body {
 }
 
 .hero-main {
-  width: 100%;
+  width: 200%;
   height: 70vh;
   /* background-color: #fff; */
   display: flex;
   align-items: center;
+  overflow: hidden;
+
 }
 
 .hero-main .hero-cards{
     position: relative;
-    width: 60%;
+    width: 60vw;
     height: 60vh;
     /* background-color: rgb(149, 53, 53); */
     display: flex;
@@ -259,6 +262,7 @@ body {
 
     .hero-cards .card-text p{
         font-weight: 400;
+        width: 80%;
         /* padding-left: 1.5rem; */
     }
 
