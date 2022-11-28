@@ -214,3 +214,87 @@ body {
         left: 95%;
         top: 45%;
     }
+
+    
+    .hero-cards .play-btn{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        border: 1px transparent;
+        background-color: rgba(255, 255, 255, 0.177);
+        padding: 5px 1rem;
+        border-radius: 25px;
+    }
+
+    .hero-cards .play-btn h2{
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 500;
+        font-style: italic;
+        font-family: "Gilroy";
+    }
+
+    .hero-cards .card-text{
+        height: 50%;
+        width: 60%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #fff;
+        font-family: "Gilroy";
+        padding: 0.5rem 0;
+    }
+
+    .hero-cards .card-text h1{
+        font-size: 3rem;
+        font-weight: 700;
+        padding-left: 1.5rem;
+    }
+
+    .hero-cards .card-text p{
+        font-weight: 400;
+        padding-left: 1.5rem;
+    }
+
+    .card-text .card-btn{
+        width: 90%;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .card-btn .review h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .card-btn h2{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 8px 35px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        background-image: linear-gradient(to right, red, purple);
+        box-shadow: 0 0 2rem .3rem  red;
+    }
+
+    .card-btn h4{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 8px 15px;
+        margin-right: 20px;
+        background-image: linear-gradient(to right, red, purple);
+        box-shadow: 0 0 2rem .3rem  red;
+    }
+
+    .hero-cards .king-logo{
+        height: 65%;
+        width: 45%;
+        background-image: url(./assets/img/hero-logo.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        right: 5%;
+        top: 13%;
+    }
