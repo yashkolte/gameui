@@ -91,12 +91,32 @@ body {
 #main #hero .hero-nav-center {
   display: flex;
   gap: 1rem;
+  position: relative;
+}
+
+#main #hero .hero-nav-center .anime-bar {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  display: flex;
+}
+
+#main #hero .hero-nav-center .anime-bar .inside-bar {
+  width: 35%;
+  background-color: rgb(84, 118, 198);
+
 }
 
 #main #hero .hero-nav-center img {
   width: 90px;
   height: 60px;
   border-radius: 5px;
+}
+#main #hero .hero-nav-center img:first-child {
+  border: 2px solid #fff;
 }
 
 #main #hero .hero-nav-right {
