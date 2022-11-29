@@ -1,4 +1,4 @@
-# App Show Case Design 
+# Game UI Design 
 
 This design is created for showing interest in UI designing.
 
