@@ -16,7 +16,7 @@ This design is created for showing interest in UI designing.
 [![twitter](https://img.shields.io/badge/instagram-f60866?style=for-the-badge&logo=instagram&logoColor=white)](https://twitter.com/yashkolte20)
 
 ## 🔗 Website
-[![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=hyper&logoColor=white)](https://yashkolte.github.io/ui-design-04/)
+[![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=hyper&logoColor=white)](https://yashkolte.github.io/gameui/)
 
 ## Colaborators
 <div align="left">
@@ -27,6 +27,12 @@ This design is created for showing interest in UI designing.
 ## Feedback
 
 If you have any feedback, please reach out to us at yashkolte9@gmail.com
+
+## Inspiration 
+
+Design is inspired from dribbble
+
+Thanks to '<i> Offriginal Madrid </i>' for this awesome design.
 
 ## Support
 
