@@ -7,7 +7,7 @@ This design is created for showing interest in UI designing.
 ![License](https://img.shields.io/github/license/yashkolte/gameui.svg)
 
 
-<img src="./readme.png" />
+<img src="./assets/readme/readme.png" />
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_github-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/yashkolte)
@@ -20,8 +20,8 @@ This design is created for showing interest in UI designing.
 
 ## Colaborators
 <div align="left">
-<img src="./DP.png" width="80px;" alt=""/><br /><sub><b>Yash Kolte</b></sub></a><br /><br />
-<img src="./DP02.png" width="80px;" alt=""/><br /><sub><b>Amit Marathe</b></sub></a><br />
+<img src="./assets/readme/DP.png" width="80px;" alt=""/><br /><sub><b>Yash Kolte</b></sub></a><br /><br />
+<img src="./assets/readme/DP02.png" width="80px;" alt=""/><br /><sub><b>Amit Marathe</b></sub></a><br />
 </div>
 
 ## Feedback
